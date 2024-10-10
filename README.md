@@ -43,10 +43,10 @@ Deployed on Vercel at following url: https://koinx-task-harsh.vercel.app
     -   `/api/stats?coin=bitcoin`
         ![alt text](public/api-tutorial/stats-bitcoin.png)
 
-    -   `/api/stats?coin=bitcoin`
+    -   `/api/stats?coin=matic-network`
         ![alt text](public/api-tutorial/stats-matic.png)
 
-    -   `/api/stats?coin=bitcoin`
+    -   `/api/stats?coin=ethereum`
         ![alt text](public/api-tutorial/stats-ethereum.png)
 
 ### 2. Get Price Deviation
@@ -55,13 +55,13 @@ Deployed on Vercel at following url: https://koinx-task-harsh.vercel.app
 -   **Method**: `GET`
 -   **Examples**:
 
-    -   `/api/stats?coin=bitcoin`
+    -   `/api/deviation?coin=bitcoin`
         ![alt text](public/api-tutorial/deviation-bitcoin.png)
 
-    -   `/api/stats?coin=bitcoin`
+    -   `/api/deviation?coin=matic-network`
         ![alt text](public/api-tutorial/deviation-matic.png)
 
-    -   `/api/stats?coin=bitcoin`
+    -   `/api/deviation?coin=ethereum`
         ![alt text](public/api-tutorial/deviation-ethereum.png)
 
 ## Contributing
