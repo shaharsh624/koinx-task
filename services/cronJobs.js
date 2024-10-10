@@ -3,7 +3,7 @@ const { fetchCryptoData } = require("./cryptoService");
 const CryptoModel = require("../models/CryptoModel");
 
 function scheduleCryptoDataFetch() {
-    cron.schedule("* * * * *", async () => {
+    cron.schedule("0 */2 * * *", async () => {
         const data = await fetchCryptoData();
         if (data) {
             Object.keys(data).forEach(async (coin) => {
