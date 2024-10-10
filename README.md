@@ -28,6 +28,10 @@ The data is stored in a MongoDB collection named `cryptos` with the following sc
 -   `change24h`: Number (required)
 -   `timestamp`: Date (default: current date)
 
+## Deployment
+
+Deployed on Vercel at following url: https://koinx-task-harsh.vercel.app
+
 ## API Endpoints
 
 ### 1. Get Latest Cryptocurrency Stats
