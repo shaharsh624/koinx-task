@@ -17,6 +17,9 @@ mongoose
     .catch((err) => console.error("MongoDB connection error:", err));
 
 // Routes
+app.get("/", (req, res) => {
+    res.send("Hello World");
+});
 app.use("/api", cryptoRoutes);
 
 // Start the cron job for background data fetching
